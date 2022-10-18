@@ -8,7 +8,7 @@ import { Movie } from '../../models/movie';
 })
 export class SliderComponent implements OnInit {
 
-  @Input() items: Movie[] = [null];
+  @Input() items: Movie[] = [];
   constructor() { }
 
   ngOnInit(): void {
